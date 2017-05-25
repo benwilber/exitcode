@@ -3,9 +3,10 @@ System exit code constants as defined by [sysexits.h](https://www.freebsd.org/cg
 
 Documentation is available [here](https://docs.rs/exitcode)
 
-# Installing
+# Installing from [crates.io](https://crates.io/crates/exitcode)
 ```
-$ cargo install exitcode
+[dependencies]
+exitcode = "1.0.0"
 ```
 # Example
 ```
