@@ -9,6 +9,6 @@ repository = "https://github.com/benwilber/exitcode"
 readme = "README.md"
 keywords = ["sysexits", "exitcode"]
 categories = ["os", "command-line-interface"]
-license = "Apache License 2.0"
+license = "Apache-2.0"
 
 [dependencies]
