@@ -7,7 +7,7 @@ $ cargo install exitcode
 ```
 # Example
 ```
-use exitcode;
+extern crate exitcode;
 
 ::std::process::exit(exitcode::OK);
 ```
