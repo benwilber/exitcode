@@ -1,4 +1,4 @@
-//! Preferred system exit codes as defined by [sysexits.h](https://www.freebsd.org/cgi/man.cgi?query=sysexits&apropos=0&sektion=0&manpath=FreeBSD+4.3-RELEASE&format=html)
+//! Preferred system exit codes as defined by sysexits.h
 //!
 //! Exit code constants intended to be passed to
 //! `std::env::set_exit_status!()` or `std::process::exit()`
@@ -6,7 +6,7 @@
 //! # Example:
 //! ```
 //! use exitcode;
-//! 
+//!
 //! ::std::process::exit(exitcode::OK);
 //! ```
 
