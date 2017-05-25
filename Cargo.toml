@@ -1,0 +1,6 @@
+[package]
+name = "exitcode"
+version = "1.0.0"
+authors = ["Ben Wilber <benwilber@gmail.com>"]
+
+[dependencies]
