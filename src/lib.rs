@@ -5,7 +5,7 @@
 //!
 //! # Example:
 //! ```
-//! use exitcode;
+//! extern crate exitcode;
 //!
 //! ::std::process::exit(exitcode::OK);
 //! ```
@@ -89,7 +89,8 @@ pub const CONFIG: i32 = 78;
 ///
 /// # Example:
 /// ```
-/// use exitcode;
+/// extern crate exitcode;
+///
 /// assert!(exitcode::is_success(exitcode::OK));
 /// assert!(!exitcode::is_success(exitcode::USAGE));
 /// ```
@@ -101,7 +102,8 @@ pub fn is_success(code: i32) -> bool {
 ///
 /// # Example:
 /// ```
-/// use exitcode;
+/// extern crate exitcode;
+///
 /// assert!(exitcode::is_error(exitcode::USAGE));
 /// assert!(!exitcode::is_error(exitcode::OK));
 /// ```

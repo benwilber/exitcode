@@ -1,9 +1,9 @@
 [package]
 name = "exitcode"
-version = "1.0.0"
+version = "1.0.1"
 authors = ["Ben Wilber <benwilber@gmail.com>"]
 description = "Preferred system exit codes as defined by sysexits.h"
-documentation = "https://github.com/benwilber/exitcode"
+documentation = "https://docs.rs/exitcode"
 homepage = "https://github.com/benwilber/exitcode"
 repository = "https://github.com/benwilber/exitcode"
 readme = "README.md"
