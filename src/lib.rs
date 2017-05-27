@@ -37,8 +37,8 @@ pub const NOUSER: i32 = 67;
 /// mail addresses or network requests.
 pub const NOHOST: i32 = 68;
 
-/// A service is unavailable.  This can occur if a sup­
-/// port program or file does not exist.  This can also
+/// A service is unavailable.  This can occur if a
+/// support program or file does not exist. This can also
 /// be used as a catchall message when something you
 /// wanted to do doesn't work, but you don't know why.
 pub const UNAVAILABLE: i32 = 69;
@@ -77,12 +77,12 @@ pub const TEMPFAIL: i32 = 75;
 pub const PROTOCOL: i32 = 76;
 
 /// You did not have sufficient permission to perform
-/// the operation.  This is not intended for file sys­tem
+/// the operation.  This is not intended for file system
 /// problems, which should use `NOINPUT` or `CANTCREAT`,
-/// but rather for higher level permis­sions.
+/// but rather for higher level permissions.
 pub const NOPERM: i32 = 77;
 
-/// Something was found in an unconfigured or miscon­figured state.
+/// Something was found in an unconfigured or misconfigured state.
 pub const CONFIG: i32 = 78;
 
 /// Check if exit code given by `code` is successful
