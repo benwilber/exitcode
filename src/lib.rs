@@ -1,7 +1,7 @@
 //! Preferred system exit codes as defined by sysexits.h
 //!
 //! Exit code constants intended to be passed to
-//! `std::env::set_exit_status!()` or `std::process::exit()`
+//! `std::process::exit()`
 //!
 //! # Example:
 //! ```
