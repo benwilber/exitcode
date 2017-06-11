@@ -96,6 +96,7 @@ pub const CONFIG: ExitCode = 78;
 ///
 /// assert!(exitcode::is_success(exitcode::OK));
 /// assert!(!exitcode::is_success(exitcode::USAGE));
+/// assert!(exitcode::is_success(0));
 /// ```
 pub fn is_success(code: ExitCode) -> bool {
     code == OK
@@ -109,6 +110,7 @@ pub fn is_success(code: ExitCode) -> bool {
 ///
 /// assert!(exitcode::is_error(exitcode::USAGE));
 /// assert!(!exitcode::is_error(exitcode::OK));
+/// assert!(exitcode::is_error(1));
 /// ```
 pub fn is_error(code: ExitCode) -> bool {
     !is_success(code)
