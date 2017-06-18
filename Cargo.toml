@@ -1,6 +1,6 @@
 [package]
 name = "exitcode"
-version = "1.1.1"
+version = "1.1.2"
 authors = ["Ben Wilber <benwilber@gmail.com>"]
 description = "Preferred system exit codes as defined by sysexits.h"
 documentation = "https://docs.rs/exitcode"
