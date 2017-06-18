@@ -8,7 +8,7 @@ Documentation is available [here](https://docs.rs/exitcode)
 # Installing from [crates.io](https://crates.io/crates/exitcode)
 ```
 [dependencies]
-exitcode = "1.1.1"
+exitcode = "1.1.2"
 ```
 
 # Example
