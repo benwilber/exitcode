@@ -1,18 +1,3 @@
-[![ghit.me](https://ghit.me/badge.svg?repo=benwilber/exitcode)](https://ghit.me/repo/benwilber/exitcode) [![Build Status](https://travis-ci.org/benwilber/exitcode.svg?branch=master)](https://travis-ci.org/benwilber/exitcode) [![Crates.io](https://img.shields.io/crates/v/exitcode.svg)](https://crates.io/crates/exitcode)
-
-# exitcode
-System exit code constants as defined by [sysexits.h](https://www.freebsd.org/cgi/man.cgi?query=sysexits&apropos=0&sektion=0&manpath=FreeBSD+4.3-RELEASE&format=html)
-
-Documentation is available [here](https://docs.rs/exitcode)
-
-# Installing from [crates.io](https://crates.io/crates/exitcode)
-```
-[dependencies]
-exitcode = "1.1.1"
-```
-
-# Example
-```rust
 extern crate exitcode;
 
 use std::process;
@@ -47,4 +32,3 @@ pub fn main() {
     process::exit(exitcode::OK);
 
 }
-```
