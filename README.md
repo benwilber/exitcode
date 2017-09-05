@@ -3,8 +3,6 @@
 # exitcode
 System exit code constants as defined by [sysexits.h](https://www.freebsd.org/cgi/man.cgi?query=sysexits&apropos=0&sektion=0&manpath=FreeBSD+4.3-RELEASE&format=html)
 
-[![ghit.me](https://ghit.me/badge.svg?repo=benwilber/exitcode)](https://ghit.me/repo/benwilber/exitcode)
-
 Documentation is available [here](https://docs.rs/exitcode)
 
 # Installing from [crates.io](https://crates.io/crates/exitcode)
