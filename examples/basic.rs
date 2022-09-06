@@ -14,11 +14,11 @@ pub fn main() {
     match parse_int_or_return_error_exitcode("foo") {
         Ok(i) => {
             println!("Parsed: {}", i);
-            process::exit(exitcode::OK);
+            process::exit(exitcode::OK.into());
         },
         Err(code) => {
             writeln!(stderr(), "Parse error.  Exiting with code: {}", code).unwrap();
-            process::exit(code);
+            process::exit(code.into());
         }
     }
 }
