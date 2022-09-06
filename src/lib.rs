@@ -26,6 +26,12 @@ impl std::fmt::Display for ExitCode {
     }
 }
 
+impl std::process::Termination for ExitCode {
+    fn report(self) -> std::process::ExitCode {
+        std::process::ExitCode::from(self.0 as u8) // safe because our highest exit code fits in u8
+    }
+}
+
 /// Successful exit
 pub const OK: ExitCode = ExitCode(0);
 
